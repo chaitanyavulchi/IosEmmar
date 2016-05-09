@@ -1,0 +1,662 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		03B731189EF34BFFFBC2E54D /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C98A309C8C17EB696C0911F /* libPods.a */; };
+		5908AE701CE0C4CC00AC1B69 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5908AE6F1CE0C4CC00AC1B69 /* main.m */; };
+		5908AE731CE0C4CC00AC1B69 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5908AE721CE0C4CC00AC1B69 /* AppDelegate.m */; };
+		5908AE761CE0C4CC00AC1B69 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5908AE751CE0C4CC00AC1B69 /* ViewController.m */; };
+		5908AE791CE0C4CC00AC1B69 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5908AE771CE0C4CC00AC1B69 /* Main.storyboard */; };
+		5908AE7C1CE0C4CC00AC1B69 /* Emaar.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5908AE7A1CE0C4CC00AC1B69 /* Emaar.xcdatamodeld */; };
+		5908AE7E1CE0C4CC00AC1B69 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5908AE7D1CE0C4CC00AC1B69 /* Assets.xcassets */; };
+		5908AE811CE0C4CC00AC1B69 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5908AE7F1CE0C4CC00AC1B69 /* LaunchScreen.storyboard */; };
+		5908AE8C1CE0C4CC00AC1B69 /* EmaarTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5908AE8B1CE0C4CC00AC1B69 /* EmaarTests.m */; };
+		5908AE971CE0C4CC00AC1B69 /* EmaarUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5908AE961CE0C4CC00AC1B69 /* EmaarUITests.m */; };
+		5908AEA51CE0C51000AC1B69 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 5908AEA41CE0C51000AC1B69 /* logo.png */; };
+		59D46D701CE0CA4A0047C96E /* ERHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 59D46D6F1CE0CA4A0047C96E /* ERHomeViewController.m */; };
+		59D46D751CE0CF1E0047C96E /* menu_black-48@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 59D46D741CE0CF1E0047C96E /* menu_black-48@2x.png */; };
+		59D46D771CE0D14A0047C96E /* cancel_filled-50@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 59D46D761CE0D14A0047C96E /* cancel_filled-50@2x.png */; };
+		59D46D7A1CE0D4DB0047C96E /* ERGraphsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 59D46D791CE0D4DB0047C96E /* ERGraphsViewController.m */; };
+		59D46D7D1CE0D5E50047C96E /* ERBudgetsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 59D46D7C1CE0D5E50047C96E /* ERBudgetsViewController.m */; };
+		59D46D801CE0D6550047C96E /* ERReviewsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 59D46D7F1CE0D6550047C96E /* ERReviewsViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5908AE881CE0C4CC00AC1B69 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5908AE631CE0C4CC00AC1B69 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5908AE6A1CE0C4CC00AC1B69;
+			remoteInfo = Emaar;
+		};
+		5908AE931CE0C4CC00AC1B69 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5908AE631CE0C4CC00AC1B69 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5908AE6A1CE0C4CC00AC1B69;
+			remoteInfo = Emaar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		050F78E55A481449238A7928 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		5908AE6B1CE0C4CC00AC1B69 /* Emaar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Emaar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5908AE6F1CE0C4CC00AC1B69 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5908AE711CE0C4CC00AC1B69 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5908AE721CE0C4CC00AC1B69 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5908AE741CE0C4CC00AC1B69 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		5908AE751CE0C4CC00AC1B69 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5908AE781CE0C4CC00AC1B69 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5908AE7B1CE0C4CC00AC1B69 /* Emaar.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Emaar.xcdatamodel; sourceTree = "<group>"; };
+		5908AE7D1CE0C4CC00AC1B69 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5908AE801CE0C4CC00AC1B69 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5908AE821CE0C4CC00AC1B69 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5908AE871CE0C4CC00AC1B69 /* EmaarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EmaarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5908AE8B1CE0C4CC00AC1B69 /* EmaarTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EmaarTests.m; sourceTree = "<group>"; };
+		5908AE8D1CE0C4CC00AC1B69 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5908AE921CE0C4CC00AC1B69 /* EmaarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EmaarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5908AE961CE0C4CC00AC1B69 /* EmaarUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EmaarUITests.m; sourceTree = "<group>"; };
+		5908AE981CE0C4CC00AC1B69 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5908AEA41CE0C51000AC1B69 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
+		5908AEA71CE0C5A000AC1B69 /* AppProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppProperties.h; sourceTree = "<group>"; };
+		59D46D6E1CE0CA4A0047C96E /* ERHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ERHomeViewController.h; sourceTree = "<group>"; };
+		59D46D6F1CE0CA4A0047C96E /* ERHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ERHomeViewController.m; sourceTree = "<group>"; };
+		59D46D741CE0CF1E0047C96E /* menu_black-48@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "menu_black-48@2x.png"; sourceTree = "<group>"; };
+		59D46D761CE0D14A0047C96E /* cancel_filled-50@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cancel_filled-50@2x.png"; sourceTree = "<group>"; };
+		59D46D781CE0D4DB0047C96E /* ERGraphsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ERGraphsViewController.h; sourceTree = "<group>"; };
+		59D46D791CE0D4DB0047C96E /* ERGraphsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ERGraphsViewController.m; sourceTree = "<group>"; };
+		59D46D7B1CE0D5E50047C96E /* ERBudgetsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ERBudgetsViewController.h; sourceTree = "<group>"; };
+		59D46D7C1CE0D5E50047C96E /* ERBudgetsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ERBudgetsViewController.m; sourceTree = "<group>"; };
+		59D46D7E1CE0D6550047C96E /* ERReviewsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ERReviewsViewController.h; sourceTree = "<group>"; };
+		59D46D7F1CE0D6550047C96E /* ERReviewsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ERReviewsViewController.m; sourceTree = "<group>"; };
+		6C98A309C8C17EB696C0911F /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE80663A67FE766A6102FC91 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5908AE681CE0C4CC00AC1B69 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03B731189EF34BFFFBC2E54D /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5908AE841CE0C4CC00AC1B69 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5908AE8F1CE0C4CC00AC1B69 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		32F64C26F480E900141942B3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AE80663A67FE766A6102FC91 /* Pods.debug.xcconfig */,
+				050F78E55A481449238A7928 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		5908AE621CE0C4CC00AC1B69 = {
+			isa = PBXGroup;
+			children = (
+				5908AE6D1CE0C4CC00AC1B69 /* Emaar */,
+				5908AE8A1CE0C4CC00AC1B69 /* EmaarTests */,
+				5908AE951CE0C4CC00AC1B69 /* EmaarUITests */,
+				5908AE6C1CE0C4CC00AC1B69 /* Products */,
+				32F64C26F480E900141942B3 /* Pods */,
+				7F7C359550A3843F1B8062E7 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5908AE6C1CE0C4CC00AC1B69 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5908AE6B1CE0C4CC00AC1B69 /* Emaar.app */,
+				5908AE871CE0C4CC00AC1B69 /* EmaarTests.xctest */,
+				5908AE921CE0C4CC00AC1B69 /* EmaarUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5908AE6D1CE0C4CC00AC1B69 /* Emaar */ = {
+			isa = PBXGroup;
+			children = (
+				5908AE711CE0C4CC00AC1B69 /* AppDelegate.h */,
+				5908AE721CE0C4CC00AC1B69 /* AppDelegate.m */,
+				5908AE741CE0C4CC00AC1B69 /* ViewController.h */,
+				5908AE751CE0C4CC00AC1B69 /* ViewController.m */,
+				59D46D6E1CE0CA4A0047C96E /* ERHomeViewController.h */,
+				59D46D6F1CE0CA4A0047C96E /* ERHomeViewController.m */,
+				59D46D7B1CE0D5E50047C96E /* ERBudgetsViewController.h */,
+				59D46D7C1CE0D5E50047C96E /* ERBudgetsViewController.m */,
+				59D46D781CE0D4DB0047C96E /* ERGraphsViewController.h */,
+				59D46D791CE0D4DB0047C96E /* ERGraphsViewController.m */,
+				59D46D7E1CE0D6550047C96E /* ERReviewsViewController.h */,
+				59D46D7F1CE0D6550047C96E /* ERReviewsViewController.m */,
+				5908AEA71CE0C5A000AC1B69 /* AppProperties.h */,
+				5908AE771CE0C4CC00AC1B69 /* Main.storyboard */,
+				5908AEA61CE0C51400AC1B69 /* Images */,
+				5908AE7D1CE0C4CC00AC1B69 /* Assets.xcassets */,
+				5908AE7F1CE0C4CC00AC1B69 /* LaunchScreen.storyboard */,
+				5908AE821CE0C4CC00AC1B69 /* Info.plist */,
+				5908AE7A1CE0C4CC00AC1B69 /* Emaar.xcdatamodeld */,
+				5908AE6E1CE0C4CC00AC1B69 /* Supporting Files */,
+			);
+			path = Emaar;
+			sourceTree = "<group>";
+		};
+		5908AE6E1CE0C4CC00AC1B69 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5908AE6F1CE0C4CC00AC1B69 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5908AE8A1CE0C4CC00AC1B69 /* EmaarTests */ = {
+			isa = PBXGroup;
+			children = (
+				5908AE8B1CE0C4CC00AC1B69 /* EmaarTests.m */,
+				5908AE8D1CE0C4CC00AC1B69 /* Info.plist */,
+			);
+			path = EmaarTests;
+			sourceTree = "<group>";
+		};
+		5908AE951CE0C4CC00AC1B69 /* EmaarUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5908AE961CE0C4CC00AC1B69 /* EmaarUITests.m */,
+				5908AE981CE0C4CC00AC1B69 /* Info.plist */,
+			);
+			path = EmaarUITests;
+			sourceTree = "<group>";
+		};
+		5908AEA61CE0C51400AC1B69 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				5908AEA41CE0C51000AC1B69 /* logo.png */,
+				59D46D761CE0D14A0047C96E /* cancel_filled-50@2x.png */,
+				59D46D741CE0CF1E0047C96E /* menu_black-48@2x.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		7F7C359550A3843F1B8062E7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6C98A309C8C17EB696C0911F /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5908AE6A1CE0C4CC00AC1B69 /* Emaar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5908AE9B1CE0C4CC00AC1B69 /* Build configuration list for PBXNativeTarget "Emaar" */;
+			buildPhases = (
+				E25C66FD3280AA40FF6BEAC8 /* Check Pods Manifest.lock */,
+				5908AE671CE0C4CC00AC1B69 /* Sources */,
+				5908AE681CE0C4CC00AC1B69 /* Frameworks */,
+				5908AE691CE0C4CC00AC1B69 /* Resources */,
+				F6357E6ABE124F662672DCA5 /* Embed Pods Frameworks */,
+				D87EFDFF20427E21B8270F8E /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Emaar;
+			productName = Emaar;
+			productReference = 5908AE6B1CE0C4CC00AC1B69 /* Emaar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5908AE861CE0C4CC00AC1B69 /* EmaarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5908AE9E1CE0C4CC00AC1B69 /* Build configuration list for PBXNativeTarget "EmaarTests" */;
+			buildPhases = (
+				5908AE831CE0C4CC00AC1B69 /* Sources */,
+				5908AE841CE0C4CC00AC1B69 /* Frameworks */,
+				5908AE851CE0C4CC00AC1B69 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5908AE891CE0C4CC00AC1B69 /* PBXTargetDependency */,
+			);
+			name = EmaarTests;
+			productName = EmaarTests;
+			productReference = 5908AE871CE0C4CC00AC1B69 /* EmaarTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5908AE911CE0C4CC00AC1B69 /* EmaarUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5908AEA11CE0C4CC00AC1B69 /* Build configuration list for PBXNativeTarget "EmaarUITests" */;
+			buildPhases = (
+				5908AE8E1CE0C4CC00AC1B69 /* Sources */,
+				5908AE8F1CE0C4CC00AC1B69 /* Frameworks */,
+				5908AE901CE0C4CC00AC1B69 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5908AE941CE0C4CC00AC1B69 /* PBXTargetDependency */,
+			);
+			name = EmaarUITests;
+			productName = EmaarUITests;
+			productReference = 5908AE921CE0C4CC00AC1B69 /* EmaarUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5908AE631CE0C4CC00AC1B69 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = thrymr;
+				TargetAttributes = {
+					5908AE6A1CE0C4CC00AC1B69 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					5908AE861CE0C4CC00AC1B69 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 5908AE6A1CE0C4CC00AC1B69;
+					};
+					5908AE911CE0C4CC00AC1B69 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 5908AE6A1CE0C4CC00AC1B69;
+					};
+				};
+			};
+			buildConfigurationList = 5908AE661CE0C4CC00AC1B69 /* Build configuration list for PBXProject "Emaar" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5908AE621CE0C4CC00AC1B69;
+			productRefGroup = 5908AE6C1CE0C4CC00AC1B69 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5908AE6A1CE0C4CC00AC1B69 /* Emaar */,
+				5908AE861CE0C4CC00AC1B69 /* EmaarTests */,
+				5908AE911CE0C4CC00AC1B69 /* EmaarUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5908AE691CE0C4CC00AC1B69 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5908AEA51CE0C51000AC1B69 /* logo.png in Resources */,
+				59D46D751CE0CF1E0047C96E /* menu_black-48@2x.png in Resources */,
+				5908AE811CE0C4CC00AC1B69 /* LaunchScreen.storyboard in Resources */,
+				59D46D771CE0D14A0047C96E /* cancel_filled-50@2x.png in Resources */,
+				5908AE7E1CE0C4CC00AC1B69 /* Assets.xcassets in Resources */,
+				5908AE791CE0C4CC00AC1B69 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5908AE851CE0C4CC00AC1B69 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5908AE901CE0C4CC00AC1B69 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		D87EFDFF20427E21B8270F8E /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E25C66FD3280AA40FF6BEAC8 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F6357E6ABE124F662672DCA5 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5908AE671CE0C4CC00AC1B69 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5908AE7C1CE0C4CC00AC1B69 /* Emaar.xcdatamodeld in Sources */,
+				5908AE761CE0C4CC00AC1B69 /* ViewController.m in Sources */,
+				5908AE731CE0C4CC00AC1B69 /* AppDelegate.m in Sources */,
+				5908AE701CE0C4CC00AC1B69 /* main.m in Sources */,
+				59D46D7A1CE0D4DB0047C96E /* ERGraphsViewController.m in Sources */,
+				59D46D701CE0CA4A0047C96E /* ERHomeViewController.m in Sources */,
+				59D46D7D1CE0D5E50047C96E /* ERBudgetsViewController.m in Sources */,
+				59D46D801CE0D6550047C96E /* ERReviewsViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5908AE831CE0C4CC00AC1B69 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5908AE8C1CE0C4CC00AC1B69 /* EmaarTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5908AE8E1CE0C4CC00AC1B69 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5908AE971CE0C4CC00AC1B69 /* EmaarUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5908AE891CE0C4CC00AC1B69 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5908AE6A1CE0C4CC00AC1B69 /* Emaar */;
+			targetProxy = 5908AE881CE0C4CC00AC1B69 /* PBXContainerItemProxy */;
+		};
+		5908AE941CE0C4CC00AC1B69 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5908AE6A1CE0C4CC00AC1B69 /* Emaar */;
+			targetProxy = 5908AE931CE0C4CC00AC1B69 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5908AE771CE0C4CC00AC1B69 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5908AE781CE0C4CC00AC1B69 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5908AE7F1CE0C4CC00AC1B69 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5908AE801CE0C4CC00AC1B69 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5908AE991CE0C4CC00AC1B69 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5908AE9A1CE0C4CC00AC1B69 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5908AE9C1CE0C4CC00AC1B69 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AE80663A67FE766A6102FC91 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Emaar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.thrymr.Emaar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5908AE9D1CE0C4CC00AC1B69 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 050F78E55A481449238A7928 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Emaar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.thrymr.Emaar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		5908AE9F1CE0C4CC00AC1B69 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = EmaarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.thrymr.EmaarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Emaar.app/Emaar";
+			};
+			name = Debug;
+		};
+		5908AEA01CE0C4CC00AC1B69 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = EmaarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.thrymr.EmaarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Emaar.app/Emaar";
+			};
+			name = Release;
+		};
+		5908AEA21CE0C4CC00AC1B69 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = EmaarUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.thrymr.EmaarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Emaar;
+			};
+			name = Debug;
+		};
+		5908AEA31CE0C4CC00AC1B69 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = EmaarUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.thrymr.EmaarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Emaar;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5908AE661CE0C4CC00AC1B69 /* Build configuration list for PBXProject "Emaar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5908AE991CE0C4CC00AC1B69 /* Debug */,
+				5908AE9A1CE0C4CC00AC1B69 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5908AE9B1CE0C4CC00AC1B69 /* Build configuration list for PBXNativeTarget "Emaar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5908AE9C1CE0C4CC00AC1B69 /* Debug */,
+				5908AE9D1CE0C4CC00AC1B69 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5908AE9E1CE0C4CC00AC1B69 /* Build configuration list for PBXNativeTarget "EmaarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5908AE9F1CE0C4CC00AC1B69 /* Debug */,
+				5908AEA01CE0C4CC00AC1B69 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5908AEA11CE0C4CC00AC1B69 /* Build configuration list for PBXNativeTarget "EmaarUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5908AEA21CE0C4CC00AC1B69 /* Debug */,
+				5908AEA31CE0C4CC00AC1B69 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		5908AE7A1CE0C4CC00AC1B69 /* Emaar.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				5908AE7B1CE0C4CC00AC1B69 /* Emaar.xcdatamodel */,
+			);
+			currentVersion = 5908AE7B1CE0C4CC00AC1B69 /* Emaar.xcdatamodel */;
+			path = Emaar.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 5908AE631CE0C4CC00AC1B69 /* Project object */;
+}

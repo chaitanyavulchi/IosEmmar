@@ -1,0 +1,10 @@
+PODS:
+  - JVMenuPopover (1.3)
+
+DEPENDENCIES:
+  - JVMenuPopover (~> 1.3)
+
+SPEC CHECKSUMS:
+  JVMenuPopover: 45b035c6e64cf6c78620c025999a953899278971
+
+COCOAPODS: 0.39.0
